@@ -17,7 +17,7 @@ Features:
 - Multiple time scales (Day, Week, Month, Year).
 - Built with a robust, event-driven JavaScript architecture for stability.
     """,
-    'author': 'Concept Solutions ',
+    'author': 'Concept Solutions LLC',
     'website': 'https://www.csloman.com',
     'depends': ['project', 'web'],
     'data': [
@@ -25,6 +25,7 @@ Features:
         'views/project_task_views.xml',
         'views/project_task_gantt_views.xml',
     ],
+    'images': ['static/description/banner.gif'],
     'assets': {
         'web.assets_backend': [
             'project_task_gantt/static/src/scss/gantt_view.scss',
@@ -37,7 +38,7 @@ Features:
     'application': True,
     'auto_install': False,
     'license': 'OPL-1',
-    'price': 360.00,
+    'price': 50.00,
     'currency': 'USD',
 
 }
